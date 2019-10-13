@@ -2,5 +2,5 @@
 
 ### Created With:
 - Gatsby
-- Styled-Components
+- Material-UI
 - Lots of Coffee

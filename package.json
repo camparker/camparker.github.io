@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Cameron Parker",
   "dependencies": {
+    "@material-ui/core": "^4.5.1",
     "@material-ui/styles": "^4.5.0",
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.2.23",
@@ -39,9 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/camparker/camparker.github.io"
   }
 }
