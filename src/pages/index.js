@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Button from '@material-ui/core/Button'
 import Container from '@material-ui/core/Container'
-
+import PrimaryButton from '../components/PrimaryButton'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -13,10 +12,9 @@ const IndexPage = () => (
       <SEO title="Home" />
       <h1>Hi people</h1>
       <p>Welcome to your new Gatsby site.</p>
-      <Button variant="contained" color="default">
-        Material-UI
-      </Button>
-      <p>Now go build something great.</p>
+      
+      <PrimaryButton text="I'm styled with material-ui/styles"/>
+      
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
