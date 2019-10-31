@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `camparker.github.io`,
+    siteUrl: `https://camparker.github.io`,
     description: `Cameron Parkers personal website`,
     author: `@camparker`,
   },
@@ -19,13 +20,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-config name field`,
-        short_name: `starter`,
+        name: `CamParker`,
+        short_name: `CamParker`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#333333`,
+        theme_color: `#fff`,
         display: `minimal-ui`,
-        icon: `src/images/Favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/Favicon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
