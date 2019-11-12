@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 
 
 export default () => (
-  <Typography variant="body1">
-    Copyright 2019 | Cameron Parker
+  <Typography variant="body2">
+    Copyright {new Date().getFullYear()} | Cameron Parker
   </Typography>
 )

@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
   footer: {
     padding: theme.spacing(2),
     marginTop: 'auto',
-    backgroundColor: '#adffe1',
+    backgroundColor: '#7bccaf',
   },
 }));
 
@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
     <>
       <div className={classes.root}>
         <CssBaseline/>
-        <Header siteTitle={data.site.siteMetadata.title} /> 
+        <Header siteTitle={data.site.siteMetadata.title} />
         <Container component="main" className={classes.main} maxWidth="lg">
           <main>{children}</main>
         </Container>
